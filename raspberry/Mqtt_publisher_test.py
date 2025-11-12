@@ -1,9 +1,9 @@
 import paho.mqtt.client as mqtt
 import time 
 
-BROKER = "83.30.29.68" #Ip de la VM
+BROKER = "20.251.170.166" #Ip de la VM
 PORT = 1883
-TOPIC = "raspi/test" 
+TOPIC = "test" 
 
 try: 
 	client = mqtt.Client()
